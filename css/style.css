@@ -1,0 +1,83 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: url('/img/woow.jpg') no-repeat center fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 25px;
+    background-size: cover;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 50px;
+}
+
+/* Слайдер */
+.slick-slider {
+
+}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+    text-align: center;
+}
+/* Лентай слайдов */
+.slick-track {
+    display: flex;
+}
+/* Слайд */
+.slick-slide {
+
+}
+/* Слайд активный */
+.slick-slide.slickactive {
+
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+
+}
+
+/* Конкретный слайдер */
+.slider {
+    position: relative;
+    padding: 100px 100px;
+}
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    background: yellow;
+    padding: 25px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .3s;
+
+}
+.slick-arrow:hover {
+    background-color: red;
+    transition: .3s;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: -30px;
+}
+.slider .slick-arrow.slick-next {
+    right: 0px;
+}
+.slider__item {}
+
+
+.tag {
+    font-size: 34px;
+    text-align: center;
+}
+
